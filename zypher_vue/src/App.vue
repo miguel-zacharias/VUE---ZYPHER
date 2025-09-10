@@ -1,9 +1,11 @@
 <script setup>
-import NavComponent from '../src/components/NavComponent.vue';
+import Faleconosco from '../src/components/Faleconosco.vue';
+import Giftcard from '../src/components/Giftcard.vue';
 </script>
 
 <template>
-    
+<Faleconosco></Faleconosco>
+    <Giftcard></Giftcard>
 </template>
 
 <style scoped>

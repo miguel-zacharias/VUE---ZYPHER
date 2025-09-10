@@ -22,7 +22,9 @@
 			<a>INFANTIL</a>
 			<a>ESPORTE</a>
 		</nav>
-
+		</div>
+		</template>
+<style scoped>
 		.contact-nav {
 			background: #e3e7ee;
 			display: flex;
