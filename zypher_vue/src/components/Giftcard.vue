@@ -20,7 +20,7 @@
     <div v-if="selectedProduct" class="product-modal" @click="closeModal">
       <div class="modal-content" @click.stop>
         <h2>{{ selectedProduct.emoji }} {{ selectedProduct.name }}</h2>
-        <p><strong>Código gerado:</strong> {{ selectedProduct.price }}</p>
+        <p><strong>Código gerado:</strong> {{ selectedProduct.codigo }}</p>
         <button @click="closeModal" class="close-btn">Fechar</button>
       </div>
     </div>
