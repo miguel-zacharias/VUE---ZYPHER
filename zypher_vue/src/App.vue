@@ -1,8 +1,10 @@
 <script setup>
+import Faleconosco from './components/Faleconosco.vue'
 import Giftcard from './components/Giftcard.vue'
 </script>
 
 <template>
+  <Faleconosco />
   <Giftcard />
 </template>
 
