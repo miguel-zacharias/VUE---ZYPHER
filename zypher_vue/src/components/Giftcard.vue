@@ -13,15 +13,14 @@
         <div class="product-emoji">{{ product.emoji }}</div>
         <h3>{{ product.name }}</h3>
         <p class="product-price">{{ product.price }}</p>
-        <button class="view-btn">Ver Detalhes</button>
+        <button class="view-btn">Gerar código</button>
       </div>
     </div>
 
     <div v-if="selectedProduct" class="product-modal" @click="closeModal">
       <div class="modal-content" @click.stop>
         <h2>{{ selectedProduct.emoji }} {{ selectedProduct.name }}</h2>
-        <p><strong>Preço:</strong> {{ selectedProduct.price }}</p>
-        <p><strong>Descrição:</strong> {{ selectedProduct.description }}</p>
+        <p><strong>Código gerado:</strong> {{ selectedProduct.price }}</p>
         <button @click="closeModal" class="close-btn">Fechar</button>
       </div>
     </div>
