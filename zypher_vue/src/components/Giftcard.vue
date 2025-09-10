@@ -13,7 +13,7 @@
         <div class="product-emoji">{{ product.emoji }}</div>
         <h3>{{ product.name }}</h3>
         <p class="product-price">{{ product.price }}</p>
-        <button class="view-btn">COMPRAR</button>
+        <button class="view-btn">GERAR CODIGO</button>
       </div>
     </div>
 
@@ -37,25 +37,29 @@ const products = ref([
   {
     id: 1,
     name: 'GIFTCARD',
+    codigo: '142668',
     price: 'R$ 100.00',
     emoji: '💳',
   },
   {
     id: 2,
     name: 'GIFTCARD',
+    codigo: '142768',
     price: 'R$ 199,00',
     emoji: '💳',
   },
   {
     id: 3,
     name: 'GIFTCARD',
+    codigo: '142868',
     price: 'R$ 349,00',
     emoji: '💳',
   },
   {
     id: 4,
     name: 'GIFTCARD',
-    price: 'R$ 1.299,00',
+    codigo: '142968',
+    price: 'R$ 499,00',
     emoji: '💳',
   }
 ])
