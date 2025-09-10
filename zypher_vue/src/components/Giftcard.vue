@@ -21,7 +21,6 @@
       <div class="modal-content" @click.stop>
         <h2>{{ selectedProduct.emoji }} {{ selectedProduct.name }}</h2>
         <p><strong>Preço:</strong> {{ selectedProduct.price }}</p>
-        <p><strong>Descrição:</strong> {{ selectedProduct.description }}</p>
         <button @click="closeModal" class="close-btn">Fechar</button>
       </div>
     </div>
