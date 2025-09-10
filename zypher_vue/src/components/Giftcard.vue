@@ -37,31 +37,27 @@ const router = useRouter()
 const products = ref([
   {
     id: 1,
-    name: 'Notebook Pro',
-    price: 'R$ 2.999,00',
+    name: 'GIFTCARD',
+    price: 'R$ 100.00',
     emoji: '💻',
-    description: 'Notebook de alta performance para desenvolvedores'
   },
   {
     id: 2,
-    name: 'Mouse Gamer',
+    name: 'GIFTCARD',
     price: 'R$ 199,00',
     emoji: '🖱️',
-    description: 'Mouse ergonômico com precisão profissional'
   },
   {
     id: 3,
-    name: 'Teclado Mecânico',
+    name: 'GIFTCARD',
     price: 'R$ 349,00',
     emoji: '⌨️',
-    description: 'Teclado mecânico com switches blue'
   },
   {
     id: 4,
-    name: 'Monitor 4K',
+    name: 'GIFTCARD',
     price: 'R$ 1.299,00',
     emoji: '🖥️',
-    description: 'Monitor 27" com resolução 4K'
   }
 ])
 
