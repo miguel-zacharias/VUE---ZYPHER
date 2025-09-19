@@ -13,7 +13,7 @@
         <div class="product-emoji">{{ product.emoji }}</div>
         <h3>{{ product.name }}</h3>
         <p class="product-price">{{ product.price }}</p>
-        <button class="view-btn">COMPRAR</button>
+        <button class="view-btn">Gerar código</button>
       </div>
     </div>
 
@@ -21,7 +21,7 @@
       <div class="modal-content" @click.stop>
         <h2>{{ selectedProduct.emoji }} {{ selectedProduct.name }}</h2>
         <p><strong>Preço:</strong> {{ selectedProduct.price }}</p>
-        <p><strong>Descrição:</strong> {{ selectedProduct.description }}</p>
+        <p><strong>Código gerado:</strong> {{ selectedProduct.codigo }}</p>
         <button @click="closeModal" class="close-btn">Fechar</button>
       </div>
     </div>
@@ -38,25 +38,29 @@ const products = ref([
   {
     id: 1,
     name: 'GIFTCARD',
+    codigo: '142668',
     price: 'R$ 100.00',
     emoji: '💳',
   },
   {
     id: 2,
     name: 'GIFTCARD',
+    codigo: '142768',
     price: 'R$ 199,00',
     emoji: '💳',
   },
   {
     id: 3,
     name: 'GIFTCARD',
+    codigo: '142868',
     price: 'R$ 349,00',
     emoji: '💳',
   },
   {
     id: 4,
     name: 'GIFTCARD',
-    price: 'R$ 1.299,00',
+    codigo: '142968',
+    price: 'R$ 499,00',
     emoji: '💳',
   }
 ])
