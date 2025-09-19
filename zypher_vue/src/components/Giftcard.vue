@@ -81,20 +81,37 @@ const closeModal = () => {
   text-align: center;
 }
 
+
 .products-grid {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
-  gap: 20px;
-  margin-top: 30px;
+  grid-template-columns: repeat(2, 1fr);
+  grid-template-rows: repeat(2, 1fr); 
+  gap: 64px 72px; /* More horizontal gap */
+  margin-top: 40px;
+  justify-items: center;
+  align-items: center;
+  max-width: 980px;
+  margin-left: auto;
+  margin-right: auto;
+  background: #232323;
+  padding: 32px 0;
+  border-radius: 24px;
 }
+
+
 
 .product-card {
   background-color: white;
   border: 2px solid #dee2e6;
-  border-radius: 8px;
-  padding: 20px;
+  border-radius: 12px;
+  padding: 36px 32px;
+  min-width: 260px;
+  min-height: 220px;
+  width: 100%;
   cursor: pointer;
   transition: all 0.3s ease;
+  box-shadow: 0 4px 16px rgba(22,41,74,0.08);
+  margin: 0 12px 0 12px; /* Add horizontal margin for extra separation */
 }
 
 .product-card:hover {
@@ -147,6 +164,7 @@ const closeModal = () => {
   z-index: 1000;
 }
 
+
 .modal-content {
   background-color: white;
   padding: 30px;
@@ -154,6 +172,7 @@ const closeModal = () => {
   max-width: 400px;
   width: 90%;
   text-align: center;
+  color: #222;
 }
 
 .close-btn {
